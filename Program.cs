@@ -66,7 +66,10 @@ namespace dsproje2._4
 
 
             //C kısmı öncelikli kuyruk ve normal kuyruk yapılarının bu gibi durumlarda avamtaj ve dezavantajları:
-            //
+            // PQ(55,5sn) kullanımı Q(85,8sn)'dan daha verimli oldu çünkü normal queue yapısında çok büyük bir değer kuyruğun başlarındaysa onun harcayacağı süre  kartopu etkisi gibi diğer tüm elemanlara ekleniyor
+            //ancak pqde bu kartopu olabilidğince ufak tutuluyor ve büyük değerler çok az sayıda elemanı etkilemiş oluyor
+            //Dezavantajı ise her seferinde en az malzemeye sahip müşteriyi bulmak için harcanan zaman ve işlem gücü örnek verilebilir
+            //Belki değerlerin birbirine çok yakın olduğu kuyruk yapılarında pq kullanmanın vereceği yarar her seferinde search işlemi yapmanın zararını karşılamayacaktır.
 
 
 
